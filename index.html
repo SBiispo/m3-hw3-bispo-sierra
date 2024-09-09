@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Artist: Doja Cat</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background: linear-gradient(120deg, #002F7F, #4A90E2);
+            color: white;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        header {
+          text-align: center;  
+          background-color: #FF4081;
+          color: white;
+          padding: 20px;
+          border-radius: 8px;
+        }
+
+        h1, h2 {
+            color: #ffffff; 
+        }
+
+        /* Nav links styling */
+   nav ul {
+       list-style: none;
+       padding: 0;
+   }
+
+   nav ul li {
+       display: inline;
+       margin-right: 15px;
+   }
+
+   nav ul li a {
+       color: white; /* Default text color: white */
+       text-decoration: none;
+       font-weight: bold;
+       padding: 10px 20px;
+       background-color: #4A90E2; /* Default background color: blue */
+       border-radius: 8px;
+       transition: background-color 0.3s ease, color 0.3s ease;
+   }
+
+   nav ul li a:hover {
+       background-color: white; /* Background turns white on hover */
+       color: #4A90E2; /* Text color turns blue on hover */
+   }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            width: 300px;
+            border-radius: 12px;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        section {
+            margin: 20px 0;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #FF4081;
+            color: white;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        #biography p {
+           background-color: #f0f0f0;
+           padding: 10px;
+           border-radius: 8px;
+           margin-bottom: 20px;
+           color: black; /* Use black text inside biography paragraphs for contrast */
+       }
+
+       #biography {
+           border-left: 4px solid #FF4081; /* Adds a pink left border to the biography section */
+           padding-left: 15px;
+           margin-top: 20px;
+       }
+
+      /* Stylized list for Awards with indent */
+   #awards ul, #discography ul {
+       list-style-type: none; /* Remove default bullets */
+       padding-left: 40px; /* Add padding to indent the list */
+   }
+
+   #awards ul li, #discography ul li {
+       padding: 10px 0;
+       position: relative;
+       font-size: 1.1em; /* Set the same font size for both sections */
+   }
+
+   #awards ul li::before {
+       content: "★"; /* Custom bullet icon (star) */
+       color: #FF4081; /* Pink star bullet */
+       font-size: 1.5em;
+       position: absolute;
+       left: -30px;
+       top: 0;
+   }
+
+   #discography ul li::before {
+       content: "•"; /* Use a different bullet style for Discography (a dot) */
+       color: #FF4081; /* Pink color for the dot */
+       font-size: 1.5em;
+       position: absolute;
+       left: -30px;
+       top: 0;
+   }
+
+   #awards ul li strong, #discography ul li strong {
+       color: #FF4081; /* Make award and album titles pink */
+   } 
+       
+       
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Favorite Artist: Doja Cat</h1>
+        <nav>
+            <ul>
+                <li><a href="#biography">Biography</a></li>
+                <li><a href="#discography">Discography</a></li>
+                <li><a href="#awards">Awards</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="biography">
+            <h2>Biography</h2>
+            <img src="doja-cat.jpg" alt="Doja Cat" width="300">
+
+            <h3>Early Life</h3>
+            <p>Doja Cat, born Amala Ratna Zandile Dlamini on October 21, 1995, in Los Angeles, California, grew up in a creative family. Her mother is a painter, and her father, Dumisani Dlamini, is a South African actor. She was exposed to a variety of musical styles from a young age, which influenced her diverse musical taste and creativity.</p>
+         
+            <h3>Rise to Fame</h3>
+            <p>At the age of 16, Doja Cat began uploading music to SoundCloud. Her song "So High" gained attention and landed her a record deal with RCA Records. She released her debut EP <em>Purr!</em> in 2014. However, her major breakthrough came in 2018 with the viral success of her novelty song "Mooo!" which catapulted her into internet fame.</p>
+         
+            <h3>Breakthrough and Success</h3>
+            <p>Following the success of "Mooo!," Doja Cat released her second album <em>Hot Pink</em> in 2019, which featured the hit single "Say So." The song went viral on TikTok and earned her mainstream recognition, eventually reaching number one on the Billboard Hot 100. She has continued to top charts with hits like "Kiss Me More" and "Streets."</p>
+         
+            <h3>Personal Life</h3>
+            <p>Doja Cat is known for her humor, bold fashion choices, and internet-savvy personality. She frequently engages with her fans on social media, often using platforms like Instagram and TikTok to promote her music and entertain her audience with funny and quirky content.</p>
+        </section>
+
+        <section id="discography">
+            <h2>Discography</h2>
+            <ul>
+                <li><strong>Amala (2018):</strong> Doja Cat's debut studio album with a mix of R&B and rap. This album set the foundation for her musical career.</li>
+                <li><strong>Hot Pink (2019):</strong> Featuring viral hits like "Say So" and "Juicy," this album earned her widespread recognition.</li>
+                <li><strong>Planet Her (2021):</strong> Her most successful album to date, featuring collaborations with SZA, Ariana Grande, and The Weeknd.</li>
+            </ul>
+         </section>
+         
+         <section id="awards">
+            <h2>Awards and Achievements</h2>
+            <ul>
+                <li><strong>Grammy Awards:</strong> Won Best Pop Duo/Group Performance in 2022 for "Kiss Me More" featuring SZA.</li>
+                <li><strong>MTV Video Music Awards:</strong> Best New Artist in 2020 and Best Collaboration in 2021 for "Kiss Me More."</li>
+                <li><strong>American Music Awards:</strong> Favorite Female R&B Artist and Favorite Collaboration at the 2021 AMAs.</li>
+            </ul>
+         </section>         
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
