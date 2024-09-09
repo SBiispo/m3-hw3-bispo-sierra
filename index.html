@@ -8,31 +8,25 @@
     <style>
         body{
             font-family: Arial, sans-serif;
-            background: linear-gradient(to bottom, #6AB8E5, white); /* Darker blue to white gradient */
+            background: linear-gradient(120deg, #002F7F, #4A90E2);
             color: white;
             padding: 20px;
             line-height: 1.6;
         }
-/* Adjusted heading colors for better contrast */
-h1 {
-       color: white; /* Keep the main heading white */
-   }
 
-   h2 {
-       color: #003366; /* Darker blue for subheadings for better contrast */
-   }
+        header {
+          text-align: center;  
+          background-color: #FF4081;
+          color: white;
+          padding: 20px;
+          border-radius: 8px;
+        }
 
-   /* Biography section headers (h3) - dark blue for better contrast */
-   #biography h3 {
-           color: #003366; /* Dark blue headers for Biography section */
-       }
+        h1, h2 {
+            color: #ffffff; 
+        }
 
-    /* Discography and Awards text - darker color for better readability */
-    #discography, #awards {
-           color: #333333; /* Dark gray text for better contrast */
-       }   
-
-   /* Nav links styling */
+        /* Nav links styling */
    nav ul {
        list-style: none;
        padding: 0;
@@ -44,18 +38,18 @@ h1 {
    }
 
    nav ul li a {
-       color: white;
+       color: white; /* Default text color: white */
        text-decoration: none;
        font-weight: bold;
        padding: 10px 20px;
-       background-color: #FF4081; /* Keep default background color */
+       background-color: #4A90E2; /* Default background color: blue */
        border-radius: 8px;
        transition: background-color 0.3s ease, color 0.3s ease;
    }
 
    nav ul li a:hover {
-       background-color: #4A90E2; /* Background turns white on hover */
-       color: #ffffff; /* Text color turns blue on hover */
+       background-color: white; /* Background turns white on hover */
+       color: #4A90E2; /* Text color turns blue on hover */
    }
 
         img {
@@ -144,7 +138,7 @@ h1 {
 
     <main>
         <section id="biography">
-            <div class="biography-header">
+            <h2>Biography</h2>
             <img src="doja-cat.webp" alt="Doja Cat" width="300">
 
             <h3>Early Life</h3>
@@ -181,7 +175,7 @@ h1 {
     </main>
 
     <footer>
-        <p>&copy; 2024 Sierra Bispo. All rights reserved.</p>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
     </footer>
 
 </body>
